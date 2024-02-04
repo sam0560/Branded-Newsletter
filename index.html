@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+      h1,
+      h2,
+      h3 {
+        font-weight: 600;
+      }
+      h2 {
+        margin: 24px 0 16px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: justify;
+      }
+      img {
+        width: 100%;
+      }
+      header {
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        padding: 3rem 2%;
+      }
+      .logo {
+        max-width: 300px;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 40px 0 0;
+      }
+      .container {
+        max-width: 440px;
+        margin: 0 auto;
+      }
+      .greeting {
+        padding: 24px 0;
+        font-weight: 600;
+      }
+      button {
+        margin: 24px 0;
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 16px;
+        font-size: 14p;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .line {
+        height: 2px;
+        background-color: #c4c4c4;
+        margin-bottom: 2rem;
+      }
+      .question {
+        background-color: #feeaea;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 3rem 2%;
+      }
+      .slct {
+        margin: 40px 0;
+      }
+      .slct-item {
+        padding: 24px 16px;
+        border: 2px solid #000000;
+        margin-bottom: 24px;
+      }
+      .contact {
+        background-color: #fff1fe;
+        padding: 3rem 5rem;
+      }
+      footer {
+        background-color: #000000;
+        color: #fff;
+        padding: 2rem 2%;
+        line-height: 2;
+      }
+      footer div p {
+        font-weight: 600;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      li {
+        width: 16px;
+        color: #1C1E23;
+        font-weight: 500;
+      }
+      a {
+        font-weight: 600;
+        color: #fff;
+      }
+      @media (max-width: 35rem) {
+        main {
+          padding: 40px 2%;
+        }
+        .contact {
+        background-color: #fff1fe;
+        padding: 3rem 2%;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="/images/logo.png" alt="logo image" class="logo" />
+    </header>
+    <main>
+      <div class="container">
+        <h1>insert last minute title about design...</h1>
+        <p class="greeting">Hi Zoe,</p>
+        <p>
+          Putting available talent to its best use is key for the welfare of
+          individuals and of the society to which they belong. Unequal access to
+          opportunity in education and labour markets tampers with the
+          allocation of talent leading to more inequality.
+        </p>
+        <br />
+        <p>
+          This newsletter focuses on the misallocation of talent by economic
+          class and gender in different settings, highlighting how temporary
+          shocks
+        </p>
+        <br />
+        <p>Such as the current pandemic can have permanent consequences.</p>
+        <button>Watch the video</button>
+      </div>
+      <div class="line"></div>
+
+      <div class="col-1 container">
+        <div class="image">
+          <img src="images/img1.jpg" alt="" />
+        </div>
+        <div>
+          <h2>Free 3D Illustration pack by Alzea</h2>
+          <p>
+            There’s a massive trend around 3D illustrations right now, this
+            could be related to the rise of 3D tools to create illustrations.
+            Illustrations can be a great way to add some personality to your
+            designs and make them more engaging. This 3D illustration pack is
+            perfect to help you out with this.
+          </p>
+          <button>Watch the video</button>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="col-1 container">
+        <div class="image">
+          <img
+            src="images/img2.png"
+            alt="Remote design sprint Figma template by Vic image"
+          />
+        </div>
+        <div>
+          <h2>Remote design sprint Figma template by Vic</h2>
+          <p>
+            Facilitating a design sprint can be challenging. Facilitating a
+            design sprint remotely is even more challenging. Luckily Nicole has
+            made this amazing template to help us out with this problem. The
+            file consists of team exercises, sticky notes, flowchart nodes,
+            assets to help you create your own tasks
+          </p>
+          <button>Grab the template</button>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="col-1 container">
+        <div class="image">
+          <img
+            src="images/img3.png"
+            alt="Creating a UX Research Report doesn’t have to be hard image"
+          />
+        </div>
+        <div>
+          <h2>Creating a UX Research Report doesn’t have to be hard...</h2>
+          <p>
+            Writing up a UX research report is just as important as conducting
+            the research itself. I’ve created a template to help you create your
+            research report, so you can actually focus on synthesising the
+            findings, rather than worrying about creating a brand-new deck.
+          </p>
+          <button>Watch the video</button>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="question">
+        <h2 class="container">
+          What do you miss the most about being in the office?
+        </h2>
+      </div>
+
+      <div class="slct">
+        <div class="container">
+          <div class="slct-item">
+            <input type="radio" name="qtn" id="my_team" />
+            <label for="my_team">My team 👩</label>
+          </div>
+          <div class="slct-item">
+            <input type="radio" name="qtn" id="the_food" />
+            <label for="the_food">The food 🍔</label>
+          </div>
+          <div class="slct-item">
+            <input type="radio" name="qtn" id="social_event" />
+            <label for="social_event">Social events 🎳</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div>
+          <h3>That’s all folks!</h3>
+          <p>
+            Sweet potato. Want to hear more of some things? Less of others? Just
+            want to say hi? Let us know below! I’d love to hear from you.
+          </p>
+          <button>Contact me</button>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <div class="container">
+          <p>furquan101</p>
+          <small>Sent to you from London.</small>
+          <ul>
+            <li>
+              <a href="">
+                <img src="images/youtube.png" alt="youtube logo" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/twitter.png" alt="youtube logo" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/msg.png" alt="youtube logo" />
+              </a>
+            </li>
+          </ul>
+          <small
+            >Feel free to
+            <a href="" target="_blank">unsubscribe </a>anytime.</small
+          >
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
